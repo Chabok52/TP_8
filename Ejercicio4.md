@@ -2,7 +2,7 @@
 ```mermaid
 flowchart TD
     A[C = 0] --> B[C -= 1]
-    B --> C[C > -6?]
+    B --> C{C > -6?}
     C --> |Si| D[Print C]
     D --> B
-    C -->|No| F[end]
+    C -->|No| F(end)

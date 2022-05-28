@@ -5,4 +5,4 @@ flowchart TD
     B --> |Si| C[C -= 1]
     C --> D[Print C]
     D --> B
-    C -->|No| F(end)
+    B -->|No| F(end)

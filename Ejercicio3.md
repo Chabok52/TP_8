@@ -1,8 +1,8 @@
 ## 3) Escriba un diagrama de flujo que permita generar e imprimir los primeros 5 números naturales (a partir de 1).
 ```mermaid
 flowchart TD
-    A[C = 0] --> B[C += 1]
-    B --> C{C < 6?}
-    C --> |Si| D[Print C]
+    A[C = 0] --> B{c < 6?}
+    B --> |Si| C[print c]
+    C --> D[c = c+1]
     D --> B
     C -->|No| F(end)

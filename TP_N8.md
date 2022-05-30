@@ -1,7 +1,7 @@
 
 # Ejercicios (1 y 2 ejemplos ya resueltos)
 
-#TP 8 – Unidad 3 – Diagramas de flujo de datos :star:
+# TP 8 – Unidad 3 – Diagramas de flujo de datos :star:
 
 
 1) Ingresar un número natural en la variable N. Determinar e imprimir un mensaje informando: si ‘N

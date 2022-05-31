@@ -4,4 +4,4 @@
 ## Se pueden ver los aportes de nosotros dos en Commits.
 #### (Aunque en el campus decía que era para practicar este TP xd)
 ---
-### Integrantes: Nicolás Torres Cárdenas - Valentín Mardones
+### Integrantes: Nicolás Torres Cárdenas - Valentín Mardones Volonteri

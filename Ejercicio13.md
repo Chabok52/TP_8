@@ -6,8 +6,12 @@ flowchart TD
 	A[contador = 0]
     A --> B[multiplicacion = 0]
     B --> C[P = Ingrese un multiplicando]
-    C --> D[Q = Ingrese un multiplicador]
-    D --> E{contador < Q?}
+    C--> K{P >= 0?}
+    K --> |No| C
+    K --> |Si| D[Q = Ingrese un multiplicador]
+    D --> L{Q >= 0?}
+    L --> |No| D
+    L --> |Si| E{contador < Q?}
     E --> |Si| F[multiplicacion += P]
     F --> G[contador += 1]
     G --> E
@@ -20,7 +24,9 @@ flowchart TD
 contador = 0
 multiplicacion = 0
 P = int(input("Ingrese el multiplicando "))
+assert P >= 0, "El multiplicando debe ser positivo"
 Q = int(input("Ingrese el multiplicador "))
+assert Q >= 0, "El multiplicador debe ser positivo"
 while contador < Q:
     multiplicacion += P
     contador += 1

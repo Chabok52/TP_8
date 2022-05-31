@@ -2,7 +2,7 @@
 es múltiplo de 3 o no. 
 ```mermaid
 flowchart TD
-	A[A = Ingrese un número] --> B{A > 0?}
+	A[A = Ingrese un número] --> B{A >= 0?}
 	B --> |No| A
 	B --> |Si| C{A % 3 == 0?}
     C --> |Si| D[print: A es multiplo de 3]
@@ -11,7 +11,7 @@ flowchart TD
 
 ```python
 A = int(input("Ingrese un número "))
-assert A > 0, "El número debe ser positivo"
+assert A >= 0, "El número debe ser positivo"
 if A % 3 == 0:
     print(f"{A} es múltiplo de 3")
 else:

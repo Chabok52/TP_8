@@ -2,7 +2,7 @@
 pares (a partir de 2).
 ```mermaid
 flowchart TD
-	A[C = 2] --> B{C > 10?}
+	A[C = 2] --> B{C > 7?}
 	B --> |NO| C[print C]
 	C --> D[C = C+2]
 	D --> B

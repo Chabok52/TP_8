@@ -6,3 +6,11 @@ flowchart TD
     C --> D[c -= 1]
     D --> B
     B --->|No| E[end]
+```
+
+```python
+c = -1
+while c > -6:
+    print(c)
+    c -= 1
+```

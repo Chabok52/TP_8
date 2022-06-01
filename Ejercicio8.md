@@ -5,13 +5,13 @@ flowchart TD
 	A[contador = 0] --> B{Es contador = 12?}
 	B --> |NO| C[N1 = Ingresar nota 1]
 	C --> D[N2 = Ingresar nota 2]
-	D --> E[promedio = (N1+N2)/2]
-	E --> F[print(promedio)]
+	D --> E[promedio = N1+N2/2]
+	E --> F[print promedio]
 	F --> G(contador += 1)
 	G --> B
-	B --> |Si| --> H[end]
-
+	B --> |Si| H[end]
 ```
+###Nota fórmula del promedio: Mermaid no permite poner "()" dentro de los [].:shrug:
 
 ```python
 contador = 0

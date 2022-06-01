@@ -11,7 +11,7 @@ flowchart TD
 	G --> B
 	B --> |Si| H[end]
 ```
-###Nota fórmula del promedio: Mermaid no permite poner "()" dentro de los [].:shrug:
+### Nota fórmula del promedio: Mermaid no permite poner "()" dentro de los [].:shrug:
 
 ```python
 contador = 0

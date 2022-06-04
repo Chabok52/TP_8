@@ -1,5 +1,5 @@
 # 10) Ingresar números enteros en la variable B y, MIENTRAS el valor ingresado en B sea
-POSITIVO, calcular la cantidad de números ingresados e imprimirla en un mensaje.
+# POSITIVO, calcular la cantidad de números ingresados e imprimirla en un mensaje.
 ```mermaid
 flowchart TD
 	A[numeros = 0] --> B[B = Ingrese un número entero]

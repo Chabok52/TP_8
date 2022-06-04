@@ -2,7 +2,7 @@
 impares (a partir de 1). 
 ```mermaid
 flowchart TD
-A[C = 1] --> B[C > 10?]
+A[C = 1] --> B{C > 10?}
     B --> |No| C[Print C]
     C -->  D[C += 2]
     D --> B

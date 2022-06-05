@@ -5,7 +5,7 @@ flowchart
 A[Positivos = 0] --> B[Negativos = 0]
 B --> C[Ceros = 0] --> 1[Contador = 0]
 1 --> D[mientras Contador < 10:]
-D --> |No| F[X = Ingrese numero entero]
+D --> |Si| F[X = Ingrese numero entero]
 F --> G{X == 0?}
 G -->|Si| H[Ceros += 1] --> 2[Contador += 1]
 2 --> D
@@ -14,7 +14,7 @@ I --> |Si| J[Positivos += 1] --> 3[Contador += 1]
 3 --> D
 I --> |No| K[Negativos += 1] --> 4[Contador += 1]
 4 --> D
-D --> |Si| M[print: Positivos Negativos Ceros]
+D --> |No| M[print: Positivos Negativos Ceros]
 ```
 ```python
 Positivos = 0

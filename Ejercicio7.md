@@ -1,4 +1,4 @@
-#7) Escriba un diagrama de flujo que permita generar e imprimir los primeros 5 números naturales
+## 7) Escriba un diagrama de flujo que permita generar e imprimir los primeros 5 números naturales
 impares (a partir de 1). 
 ```mermaid
 flowchart TD

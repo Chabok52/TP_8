@@ -1,4 +1,4 @@
-#9) Ingresar un número natural en la variable A. Determinar e imprimir un mensaje informando: si A
+## 9) Ingresar un número natural en la variable A. Determinar e imprimir un mensaje informando: si A
 es múltiplo de 3 o no. 
 ```mermaid
 flowchart TD

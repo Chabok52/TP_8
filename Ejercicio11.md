@@ -1,4 +1,4 @@
-#11) Ingresar números enteros en la variable Z, HASTA que la suma de los valores ingresados en Z
+## 11) Ingresar números enteros en la variable Z, HASTA que la suma de los valores ingresados en Z
 sea mayor a 500. Determinar e imprimir la cantidad de números ingresados. 
 ```mermaid
 flowchart TD

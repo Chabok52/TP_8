@@ -16,5 +16,5 @@ B = int(1)
 while B > 0:
     B = int(input("Ingrese numero entero... "))
     numeros += 1
-print(numeros)
+print(f"La cantidad de números ingresados fueron {numeros}")
 ```

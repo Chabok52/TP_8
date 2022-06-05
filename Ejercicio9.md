@@ -1,5 +1,5 @@
 ## 9) Ingresar un número natural en la variable A. Determinar e imprimir un mensaje informando: si A
-es múltiplo de 3 o no. 
+## es múltiplo de 3 o no. 
 ```mermaid
 flowchart TD
 	A[A = Ingrese un número] --> B{A >= 0?}

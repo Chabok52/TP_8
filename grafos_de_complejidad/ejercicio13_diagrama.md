@@ -6,12 +6,8 @@ flowchart TD
     A((1)) --> B((2))
     B --> C((3))
     C --> D((4))
-    style D fill:#03FAAF,color:#000000
-    D --> C
     D --> E((5))
     E --> F((6))
-    style F fill:#03FAAF,color:#000000
-    F --> E
     F --> G((7))
     style G fill:#03FAAF,color:#000000
     G --> H((8))

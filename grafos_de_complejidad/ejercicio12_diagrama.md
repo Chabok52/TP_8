@@ -1,7 +1,6 @@
 # 12) Ingresar 10 números enteros usando la variable X. Determinar e imprimir un mensaje informando: la cantidad de números POSITIVOS, la cantidad de números NEGATIVOS y, la cantidad de CEROS ingresados.
 ```mermaid
 flowchart
-flowchart
 A((1)) --> |i| B((2))
 B -->|ii| C((3)) -->|iii| 1((4))
 1 -->|iv|D((5))

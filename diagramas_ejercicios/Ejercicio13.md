@@ -7,10 +7,8 @@ flowchart TD
     A --> B[multiplicacion = 0]
     B --> C[P = Ingrese un multiplicando]
     C--> K[assert P > 0, El número debe ser mayor a 0]
-    K --> |No| C
     K --> |Si| D[Q = Ingrese un multiplicador]
     D --> L[assert P > 0, El número debe ser mayor a 0]
-    L --> |No| D
     L --> |Si| E{contador < Q?}
     E --> |Si| F[multiplicacion += P]
     F --> G[contador += 1]
